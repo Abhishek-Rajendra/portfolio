@@ -11,7 +11,7 @@ const Navigation = () => {
           <LinkContainer to="/">
             <Navbar.Brand>
               {/* <img src={logo} style={{ width: 30, marginTop: -6 }} /> */}
-              Abhihsek Rajendra Prasad
+              Abhishek Rajendra Prasad
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

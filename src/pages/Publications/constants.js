@@ -20,7 +20,7 @@ const publicationData = [
     headerConfig: { as: "h5" },
     title: "Automated 3D solid reconstruction from 2D CAD using OpenCV",
     body:
-      'Co-authors: <a href="https://www.ajaybharish.com/home"  target="_blank" rel="noreferrer">Ajay B Harish, University of California, Berkekey</s>',
+      'Co-authors: <a href="https://www.ajaybharish.com/home"  target="_blank" rel="noreferrer">Ajay B Harish, University of California, Berkeley</s>',
     footer:
       '<p style="margin:0;padding:0;">2020 <a href="https://arxiv.org/pdf/2101.04248"  target="_blank" rel="noreferrer">arXiv</a> <a href="https://github.com/bhajay/ACADGen"  target="_blank" rel="noreferrer">github</a></p>',
     footerConfig: { className: "text-muted d-flex justify-content-end" },
