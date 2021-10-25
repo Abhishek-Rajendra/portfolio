@@ -21,7 +21,7 @@ const researchData = [
     src: "",
     srcConfig: {},
     header:
-      'Worked under <a href="https://www.ajaybharish.com/home"  target="_blank" rel="noreferrer">Ajay B Harish, University of California, Berkekey</s>',
+      'Worked under <a href="https://www.ajaybharish.com/home"  target="_blank" rel="noreferrer">Ajay B Harish, University of California, Berkeley</s>',
     headerConfig: { as: "h5" },
     title: "Automated 3D solid reconstruction from 2D CAD using OpenCV",
     body:
