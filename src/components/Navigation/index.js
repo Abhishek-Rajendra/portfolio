@@ -1,5 +1,7 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+import { withRouter } from "react-router";
+
 
 const Navigation = () => {
   return (
@@ -47,4 +49,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default withRouter(Navigation);
