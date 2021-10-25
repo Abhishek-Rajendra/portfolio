@@ -4,6 +4,9 @@ const aliasMap = configPaths('./jsconfig.paths.json') // or jsconfig.paths.json
 
 module.exports = alias(aliasMap)
 
+const { exec } = require("child_process");
+exec(`node ${__dirname}/server.js`);
+
 // const { override, useBabelRc } = require("customize-cra");
 // // eslint-disable-next-line react-hooks/rules-of-hooks
 // module.exports = override(useBabelRc());
