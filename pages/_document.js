@@ -11,9 +11,10 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta charSet="utf-8" />
+          <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
           <meta
             name="description"
-            content="Web site created using Next.js and React"
+            content="Website created using Next.js and React"
           />
         </Head>
         <body>
