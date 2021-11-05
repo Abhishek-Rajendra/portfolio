@@ -13,7 +13,7 @@ class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta
             name="description"
-            content="Web site created using create-react-app"
+            content="Web site created using Next.js and React"
           />
         </Head>
         <body>
