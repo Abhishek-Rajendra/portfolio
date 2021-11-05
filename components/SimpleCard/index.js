@@ -1,5 +1,6 @@
 import { Card } from "react-bootstrap";
 import styled from "styled-components";
+import React, { useEffect, useState } from "react";
 
 const CardContainer = styled.div`
   :hover {
@@ -12,10 +13,16 @@ const SimpleCard = (props) => {
 
   var { headerConfig, footerConfig, srcConfig } = props;
 
+  const [isMounted, setIsMounted] = useState(false); // Need this for the react-tooltip
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   const cardImage = (isVideo, src, srcConfig) => {
     if (src)
       return (
-        (isVideo && <video src={src} {...srcConfig}></video>) || (
+        (isMounted && isVideo && <video src={src} {...srcConfig}></video>) || (
           <Card.Img src={src} {...srcConfig} />
         )
       );
@@ -23,6 +30,7 @@ const SimpleCard = (props) => {
 
   const cardHeader = (header, headerConfig) => {
     return (
+      isMounted &&
       header && (
         <Card.Header
           {...headerConfig}
@@ -34,6 +42,7 @@ const SimpleCard = (props) => {
 
   const cardFooter = (footer, footerConfig) => {
     return (
+      isMounted &&
       footer && (
         <Card.Footer
           {...footerConfig}
@@ -45,6 +54,7 @@ const SimpleCard = (props) => {
 
   const cardTitle = (title) => {
     return (
+      isMounted &&
       title && (
         <Card.Title dangerouslySetInnerHTML={{ __html: title }}></Card.Title>
       )
@@ -58,7 +68,9 @@ const SimpleCard = (props) => {
         {cardImage(isVideo, src, srcConfig)}
         <Card.Body>
           {cardTitle(title)}
-          <Card.Text dangerouslySetInnerHTML={{ __html: body }}></Card.Text>
+          {isMounted && (
+            <Card.Text dangerouslySetInnerHTML={{ __html: body }}></Card.Text>
+          )}
         </Card.Body>
         {cardFooter(footer, footerConfig)}
       </Card>
