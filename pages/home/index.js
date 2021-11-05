@@ -25,7 +25,7 @@ const Home = () => {
               <Paragraph data={aboutMe}></Paragraph>
             </Col>
             <Col xs={6} md={4}>
-              <Image src={abhishek} {...options}></Image>
+              <Image src={abhishek} alt="Profile Photo" {...options}></Image>
             </Col>
           </Row>
         </Container>
