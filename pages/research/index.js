@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Title, StackCardGroup } from "@components/Components";
-import researchData from "./constants";
+import researchData from "@constants/research";
 
 
 const ResearchContainer = styled.div`

@@ -1,6 +1,6 @@
 import { StackCardGroup, Title } from "@components/Components";
 import styled from "styled-components";
-import { projectData } from "./constants";
+import { projectData } from "@constants/projects";
 
 const ProjectsContainer = styled.div`
   padding: 50px;

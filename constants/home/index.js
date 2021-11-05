@@ -5,4 +5,4 @@ const aboutMe =
   "I have a solid background as a full-stack developer as well. I am proficient in Spring Boot, Python, C++ based backend development, and React, React Native for front-end development." +
   '<br> <a href="https://drive.google.com/file/d/18Hir2u_7qBPOThForGkGOGFN7-QtRHoc/view?usp=drivesdk" target="_blank" rel="no-referrer">Resume</a>';
 
-export { aboutMe };
+export default aboutMe;

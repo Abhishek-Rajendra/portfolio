@@ -1,7 +1,7 @@
 import { Title } from "@components/Components";
 import GroupCard from "@components/GroupCard";
 import styled from "styled-components";
-import { publicationData, groupCardConfig } from "./constants";
+import { publicationData, groupCardConfig } from "@constants/publications";
 
 const PublicationContainer = styled.div`
   padding: 50px;

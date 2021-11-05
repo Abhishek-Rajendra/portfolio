@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { SimpleTable, Title } from "@components/Components";
-import { newsData, tableConfig } from "./constants";
+import { newsData, tableConfig } from "@constants/news";
 
 const NewsContainer = styled.div`
   padding: 50px;

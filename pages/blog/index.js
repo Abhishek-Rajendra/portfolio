@@ -1,8 +1,7 @@
 import styled from "styled-components";
 import { Title } from "@components/Components";
-import { blogData, groupCardConfig } from "./constants";
+import { blogData, groupCardConfig } from "@constants/blog";
 import GroupCard from "@components/GroupCard";
-
 
 const BlogContainer = styled.div`
   padding: 50px;

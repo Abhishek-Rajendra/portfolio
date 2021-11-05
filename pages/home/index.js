@@ -2,7 +2,7 @@ import abhishek from "@assets/abhishek.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 import { Image, Paragraph, Title } from "@components/Components";
 import styled from "styled-components";
-import { aboutMe } from "./constants";
+import aboutMe from "@constants/home";
 
 const HomeContainer = styled.div`
   padding: 50px;
@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
       <HomeContainer>
-        <Title>Welcome to Abhishek's Website!!</Title>
+        <Title>Welcome to Abhishek&apos;s Website!!</Title>
         <Container>
           {/* Stack the columns on mobile by making one full-width and the other half-width */}
           <Row>

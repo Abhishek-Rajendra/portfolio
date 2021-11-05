@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Title, GroupCard } from "@components/Components";
-import { artData, groupCardConfig } from "./constant";
+import { artData, groupCardConfig } from "@constants/hobbies";
 
 const HobbiesContainer = styled.div`
   padding: 50px;
