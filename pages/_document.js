@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import { prefix } from "@components/utils";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -11,7 +12,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta charSet="utf-8" />
-          <link rel="icon" href="/static/favicon.ico" />
+          <link rel="icon" href={`${prefix}/static/favicon.ico`} />
           <meta
             name="description"
             content="Website created using Next.js and React"
