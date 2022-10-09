@@ -3,6 +3,7 @@ const aboutMe =
   'I obtained my Bachelors in Computer Science and Engineering at <a href="https://www.iitdh.ac.in/" target="_blank" rel="no-referrer">Indian Institute of Technology(IIT) Dharwad</a> (India) in 2020. I worked as a Software Engineer at <a href="https://www.airasia.com/en/gb" target="_blank" rel="no-referrer">AirAsia</a> for the year 2020-21 before moving to the US in August 2021 to UTD.<br>' +
   "My research interests are in the area of Reinforcement Learning, Deep Learning, and Computer Vision.<br>" +
   "I have a solid background as a full-stack developer as well. I am proficient in Spring Boot, Python, C++ based backend development, and React, React Native for front-end development." +
-  '<br> <a href="https://drive.google.com/file/d/18Hir2u_7qBPOThForGkGOGFN7-QtRHoc/view?usp=drivesdk" target="_blank" rel="no-referrer">Resume</a>';
+  '<br> <a href="abhishek-rajendra.github.io/public/Abhishek_Rajendra_MSCS_ML.pdf" target="_blank" rel="no-referrer">Resume for Data Science/ML/Research</a> <br>' +
+  '<a href="abhishek-rajendra.github.io/public/Abhishek_Rajendra_MSCS.pdf" target="_blank" rel="no-referrer">Resume for Software Engineer</a>';
 
 export { aboutMe };
