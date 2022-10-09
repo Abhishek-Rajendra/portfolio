@@ -2,6 +2,11 @@ const tableConfig = {};
 
 const newsData = [
   {
+    date: '<p style="color:red;">Jun 6, 2022 - Aug 12, 2022</p>',
+    content:
+      'Engineering Summer Analyst at Goldman Sachs',
+  },
+  {
     date: '<p style="color:red;">Aug 26, 2021</p>',
     content:
       'Joined Dr. Yu Xiang’s <a href="https://labs.utdallas.edu/irvl/"  target="_blank" rel="noreferrer">Intelligent Robotics and Vision Lab(IRVL)</a> as a Graduate Research Assistant.',
