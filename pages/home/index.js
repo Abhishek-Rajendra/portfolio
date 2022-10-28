@@ -17,6 +17,18 @@ const Home = () => {
       thumbnail: true,
     },
   };
+
+  const currectDateFn = () =>{
+    const date = new Date();
+
+    let day = date.getDate();
+    let month = date.getMonth() + 1;
+    let year = date.getFullYear();
+
+    // This arrangement can be altered based on how we want the date's format to appear.
+    let currentDate = `${day}-${month}-${year}`;
+    return currentDate // "17-6-2022"
+  }
   return (
     <>
       <HomeContainer>
@@ -26,6 +38,7 @@ const Home = () => {
           <Row>
             <Col xs={12} md={8}>
               <Paragraph data={aboutMe}></Paragraph>
+              UPDATED ON: {currectDateFn()} <br></br>
               <a href="assets/Abhishek_Rajendra_MSCS.pdf" target="_blank" rel="noreferrer">Resume for Software Engineer</a>
               <br></br>
               <a href="assets/Abhishek_Rajendra_MSCS_ML.pdf" target="_blank" rel="noreferrer">Resume for Data Science/ML/Research</a>
