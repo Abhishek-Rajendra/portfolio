@@ -38,7 +38,7 @@ const Home = () => {
           <Row>
             <Col xs={12} md={8}>
               <Paragraph data={aboutMe}></Paragraph>
-              UPDATED ON: {currectDateFn()} <br></br>
+              UPDATED ON: Nov 1, 2022 <br></br>
               <a href="assets/Abhishek_Rajendra_MSCS.pdf" target="_blank" rel="noreferrer">Resume for Software Engineer</a>
               <br></br>
               <a href="assets/Abhishek_Rajendra_MSCS_ML.pdf" target="_blank" rel="noreferrer">Resume for Data Science/ML/Research</a>
